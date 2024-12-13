@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push Notification App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Push Notification Generator</h1>
+        <button id="requestPermission">Request Notification Permission</button>
+        <div class="notification-form">
+            <input type="text" id="notificationTitle" placeholder="Notification Title" required>
+            <input type="text" id="notificationMessage" placeholder="Notification Message" required>
+            <div class="button-container">
+                <button id="sendNotification">Send Notification</button>
+                <button id="timerNotification">Send Notification in 5 seconds</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
